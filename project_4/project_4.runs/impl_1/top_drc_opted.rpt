@@ -1,0 +1,49 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Tue Dec  5 17:37:44 2023
+| Host         : William running 64-bit major release  (build 9200)
+| Command      : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+| Design       : top
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 1
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT controlvga/h_count_next[9]_i_2 is driving clock pin of 20 cells. This could lead to large hold time violations. Involved cells are:
+controlvga/h_count_next_reg[0], controlvga/h_count_next_reg[1],
+controlvga/h_count_next_reg[2], controlvga/h_count_next_reg[3],
+controlvga/h_count_next_reg[4], controlvga/h_count_next_reg[5],
+controlvga/h_count_next_reg[6], controlvga/h_count_next_reg[7],
+controlvga/h_count_next_reg[8], controlvga/h_count_next_reg[9],
+controlvga/v_count_next_reg[0], controlvga/v_count_next_reg[1],
+controlvga/v_count_next_reg[2], controlvga/v_count_next_reg[3],
+controlvga/v_count_next_reg[4] (the first 15 of 20 listed)
+Related violations: <none>
+
+

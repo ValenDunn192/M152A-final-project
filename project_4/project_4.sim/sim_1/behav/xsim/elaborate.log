@@ -1,0 +1,35 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'clk_500' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:99]
+WARNING: [VRFC 10-3091] actual bit length 6 differs from formal bit length 10 for port 'arrows9' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:109]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows0' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:124]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows1' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:125]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows2' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:126]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows3' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:127]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows4' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:128]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows5' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:129]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows6' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:130]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows7' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:131]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows8' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:132]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'arrows9' [C:/Users/willi/OneDrive/Desktop/project_4new/project_4/project_4.srcs/sim_1/new/tb.v:133]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debouncer
+Compiling module xil_defaultlib.clock
+Compiling module xil_defaultlib.seven_seg
+Compiling module xil_defaultlib.score
+Compiling module xil_defaultlib.select_clock
+Compiling module xil_defaultlib.arrows
+Compiling module xil_defaultlib.vga_controller_default
+Compiling module xil_defaultlib.ram
+Compiling module xil_defaultlib.VGA
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

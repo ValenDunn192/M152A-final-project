@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_4.srcs/sources_1/new/VGA.v" \
+"../../../../project_4.srcs/sources_1/new/arrows.v" \
+"../../../../project_4.srcs/sim_1/new/clock.v" \
+"../../../../project_4.srcs/sim_1/new/debouncer.v" \
+"../../../../project_4.srcs/sources_1/new/ram.v" \
+"../../../../project_4.srcs/sources_1/new/score.v" \
+"../../../../project_4.srcs/sources_1/new/select_clock.v" \
+"../../../../project_4.srcs/sim_1/new/seven_seg.v" \
+"../../../../project_4.srcs/sources_1/new/vga_controller.v" \
+"../../../../project_4.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
